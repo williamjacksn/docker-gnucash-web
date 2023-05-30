@@ -1,0 +1,9 @@
+services:
+  shell:
+    entrypoint:
+      - /bin/sh
+    image: ghcr.io/williamjacksn/gnucash-web
+    init: true
+    volumes:
+      - ./:/home/python/docker-gnucash-web
+    working_dir: /home/python/docker-gnucash-web
