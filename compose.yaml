@@ -1,4 +1,8 @@
 services:
+  gnucash-web:
+    image: ghcr.io/williamjacksn/gnucash-web
+    init: true
+
   shell:
     entrypoint:
       - /bin/sh
