@@ -1,5 +1,6 @@
 --extra-index-url https://alpine-wheels.github.io/index
 
+flask<2.3
 gnucash-web
 notch
 waitress
