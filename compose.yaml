@@ -2,6 +2,8 @@ services:
   gnucash-web:
     image: ghcr.io/williamjacksn/gnucash-web
     init: true
+    ports:
+      - 8080:8080
 
   shell:
     entrypoint:
