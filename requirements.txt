@@ -32,6 +32,8 @@ markupsafe==2.1.2
     # via
     #   jinja2
     #   werkzeug
+notch==2022.1
+    # via -r requirements.in
 piecash==1.2.0
     # via gnucash-web
 pycryptodome==3.18.0
