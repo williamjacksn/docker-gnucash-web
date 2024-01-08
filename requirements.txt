@@ -32,7 +32,7 @@ markupsafe==2.1.2
     # via
     #   jinja2
     #   werkzeug
-notch==2022.1
+notch==2023.1
     # via -r requirements.in
 piecash==1.2.0
     # via gnucash-web
