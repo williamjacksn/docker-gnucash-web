@@ -20,7 +20,7 @@ flask==2.2.5
     # via
     #   -r requirements.in
     #   gnucash-web
-gnucash-web==0.1.0
+gnucash-web==0.1.4
     # via -r requirements.in
 idna==3.4
     # via requests
@@ -55,4 +55,6 @@ urllib3==2.0.2
 waitress==2.1.2
     # via -r requirements.in
 werkzeug==2.3.4
-    # via flask
+    # via
+    #   flask
+    #   gnucash-web
