@@ -20,7 +20,7 @@ flask==2.2.5
     # via gnucash-web
 gnucash-web==0.1.4
     # via -r requirements.in
-idna==3.6
+idna==3.7
     # via requests
 itsdangerous==2.1.2
     # via flask
