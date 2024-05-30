@@ -48,7 +48,7 @@ sqlalchemy-utils==0.41.2
     # via piecash
 tzlocal==5.2
     # via piecash
-urllib3==2.1.0
+urllib3==2.2.1
     # via requests
 waitress==3.0.0
     # via -r requirements.in
